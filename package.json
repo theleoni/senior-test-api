@@ -1,0 +1,16 @@
+{
+	"name": "senior-test-api",
+	"version": "0.0.0",
+	"private": true,
+	"scripts": {
+		"dev": "npx nodemon ./bin/www"
+	},
+	"dependencies": {
+		"debug": "~2.6.9",
+		"express": "~4.16.1",
+		"express-load": "^1.1.16",
+		"morgan": "~1.9.1",
+		"pg-promise": "^9.3.3",
+		"promise": "^8.0.3"
+	}
+}
